@@ -14,7 +14,7 @@
     "url": "git+https://github.com/aaronbriel/jsonjunit.git"
   },
   "keywords": [
-    "json-junit",
+    "jsonjunit",
     "mochawesome",
     "junitxml",
     "json",
