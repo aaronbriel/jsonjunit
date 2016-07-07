@@ -1,0 +1,35 @@
+{
+  "name": "jsonjunit",
+  "version": "1.0.0",
+  "description": "JSON to JunitXML converter",
+  "main": "index.js",
+  "bin": {
+    "jsonjunit": "./index.js"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronbriel/json-junit.git"
+  },
+  "keywords": [
+    "json-junit",
+    "mochawesome",
+    "junitxml",
+    "json",
+    "junit",
+    "mocha"
+  ],
+  "author": "Aaron Briel <aaronbriel@gmail.com> (http://euronymo.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronbriel/json-junit/issues"
+  },
+  "homepage": "https://github.com/aaronbriel/json-junit#readme",
+  "dependencies": {
+    "diff": "2.2.3",
+    "xml": "1.0.1",
+    "commander": "2.9.0"
+  }
+}
