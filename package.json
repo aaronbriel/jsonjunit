@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aaronbriel/json-junit.git"
+    "url": "git+https://github.com/aaronbriel/jsonjunit.git"
   },
   "keywords": [
     "json-junit",
@@ -24,9 +24,9 @@
   "author": "Aaron Briel <aaronbriel@gmail.com> (http://euronymo.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aaronbriel/json-junit/issues"
+    "url": "https://github.com/aaronbriel/jsonjunit/issues"
   },
-  "homepage": "https://github.com/aaronbriel/json-junit#readme",
+  "homepage": "https://github.com/aaronbriel/jsonjunit#readme",
   "dependencies": {
     "diff": "2.2.3",
     "xml": "1.0.1",
