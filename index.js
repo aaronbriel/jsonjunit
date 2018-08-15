@@ -2,13 +2,14 @@
 var program = require('commander'),
     fs = require('fs'),
     path = require('path'),
+    pkg = require('./package.json'),
     jsonJunit = require('./lib/jsonjunit'),
     fileName,
     jsonFile,
     junitFile;
 
 program
-    .version(JSON.parse(fs.readFileSync('./package.json', 'utf8')).version)
+    .version(pkg.version)
     .option('-ju, --json <json>', 'JSON report target path')
     .option('-jx, --junit <junit>', 'JUnitXML report destination path')
     //.option('-jt, --jsontype', 'Type of JSON report to convert')
