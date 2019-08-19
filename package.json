@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/aaronbriel/jsonjunit#readme",
   "dependencies": {
-    "diff": "2.2.3",
+    "diff": "3.5.0",
     "xml": "1.0.1",
     "commander": "2.9.0"
   }
